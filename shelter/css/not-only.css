@@ -1,0 +1,99 @@
+.main__bg-not-only {
+    background: url(../assets/img/reference.png), radial-gradient(58% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+.not-only {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 908px;
+    overflow: hidden;
+}
+.not-only__block {
+    width: 39%;
+    margin-bottom: 20%;
+}
+.not-only__block h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2em;
+    line-height: 130%;
+    color: #FFFFFF;
+    width: 70%;
+}
+.not-only__block p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-top: 42px;
+}
+.not-only__block-button {
+    width: 208px;
+    height: 57px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-top: 40px;
+    border: 0;
+    transition: 0.3s;
+}
+.not-only__block-button:hover {
+    font-size: 18px;
+    background: #FDDCC4;
+}
+
+@media (max-width: 1279px){
+    .not-only {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 1165px;
+        flex-direction: column;
+    }
+    .not-only__block {
+        width: 60%;
+        margin-top: 19.5%;
+        margin-bottom: 0;
+    }
+    .not-only__block form {
+        text-align: center;
+    }
+    .not-only img {
+        width: 74%;
+        margin-left: 17%;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 767px){
+    .not-only {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 823px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .not-only__block h1 {
+        font-size: 1.25em;
+        letter-spacing: 0.06em;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .not-only__block {
+        width: 92%;
+        margin-top: 90px;
+    }
+    .not-only img {
+        width: 83%;
+    }
+}
