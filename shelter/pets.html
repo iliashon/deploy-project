@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pets.css">
+    <link rel="shortcut icon" href="./assets/svg/dog-Sit.svg" type="image/x-icon">
+    <title>Shelter pets</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__logo">
+            <a href="./main.html" class="header__logo-text">Cozy House</a>
+            <p class="header__logo-info-text">Shelter for pets in Boston</p>
+        </div>
+        <nav class="header__nav">
+            <a href="./main.html" class="header__nav-item">About the shelter</a>
+            <a href="#" class="header__nav-item active-nav-item">Our pets</a>
+            <a href="./main.html#anchor__help-shelter" class="header__nav-item">Help the shelter</a>
+            <a href="#anchor__contacts" class="header__nav-item">Contacts</a>
+        </nav>
+</header>
+<div class="burger-menu-anim">
+    <div class="header__burger" id="hd-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="haeder__burger-menu" id="hdm">
+      <ul class="burger-menu-list">
+        <li class="burger-menu-item">
+          <a href="./main.html" class="header__nav-item"
+          >About the shelter</a>
+        </li>
+        <li class="burger-menu-item">
+          <a href="#" class="header__nav-item active-nav-item">Our pets</a>
+        </li>
+        <li class="burger-menu-item">
+          <a href="../main.html#anchor__help-shelter" class="header__nav-item"
+          >Help the shelter</a>
+        </li>
+        <li class="burger-menu-item">
+          <a href="#anchor__contacts" class="header__nav-item">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<main class="our-friends__bg">
+    <h1>Our friends who <br> are looking for a house</h1>
+    <div class="our-friends container">
+        <ul class="our-friends-list">
+            <!-- <li class="our-friends__slider-card">
+                <img src="../assets/img/pets-katrine.png" alt="">
+                <h4>Katrine</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card">
+                <img src="../assets/img/pets-jennifer.png" alt="">
+                <h4>Jennifer</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card">
+                <img src="../assets/img/pets-woody.png" alt="">
+                <h4>Woody</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card sophia">
+                <img src="../assets/img/pets-sophia.png" alt="">
+                <h4>Sophia</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card timmy">
+                <img src="../assets/img/pets-timmy.png" alt="">
+                <h4>Timmy</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card charly">
+                <img src="../assets/img/pets-charly.png" alt="">
+                <h4>Charly</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card scarlett">
+                <img src="../assets/img/pets-scarlet.png" alt="">
+                <h4>Scarlett</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li>
+            <li class="our-friends__slider-card freddie">
+                <img src="../assets/img/pets-freddle.png" alt="">
+                <h4>Freddie</h4>
+                <button class="our-friends__slider-card-more-btn">
+                    Learn more
+                </button>
+            </li> -->
+        </ul>
+    </div>
+    <div class="our-friends__nav-btn">
+        <button class="btn-full-back pag-btn" disabled>
+            &#60;&#60;
+        </button>
+        <button class="btn-first-back pag-btn" disabled>
+            &#60;
+        </button>
+        <button class="number-page">1</button>
+        <button class="btn-first-next pag-btn">
+            &#62;
+        </button>
+        <button class="btn-full-next pag-btn">
+            &#62;&#62;
+        </button>
+    </div>
+</main>
+
+<footer class="footer" id="anchor__contacts">
+    <div class="footer-info container">
+        <div class="footer__contacts">
+            <h3>For questions and suggestions</h3>
+            <div class="footer__contacts-email fot-box">
+                <a href="mailto:email@shelter.com" id="contact-mail">email@shelter.com</a>
+            </div>
+            <div class="footer__contacts-number fot-box">
+                <a href="tel:+136745677554" id="contact-number">+13 674 567 75 54</a>
+            </div>
+        </div>
+        <div class="footer__adress">
+            <h3>We are waiting for your visit</h3>
+            <div class="footer__adress-bost fot-box">
+                <a href="https://goo.gl/maps/Tnd4u6JEhcTQwxRA9" id="contact-adress-bost">1 Central Street, Boston (entrance from the store)</a>
+            </div>
+            <div class="footer__adress-lond fot-box">
+                <a href="https://goo.gl/maps/mc9ikX9qHk4oGzxB8" id="contact-adress-lond">18 South Park, London</a>
+            </div>
+        </div>
+        <img src="./assets/img/footer-puppy.png" alt="">
+    </div>
+</footer>
+
+<div class="modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+          <div data-close class="modal__close">&times;</div>
+                <img src="./assets/img/pets-jennifer.png" alt="">
+                <div class="modal__pets-info">
+                  <h2>Jennifer</h2>
+                  <h3>Dog - Labrador</h3>
+                  <p>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                  <ul>
+                    <li><span>Age: </span></li>
+                    <li><span>Inoculations: </span></li>
+                    <li><span>Diseases: </span></li>
+                    <li><span>Parasites: </span></li>
+                  </ul>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/pets.bundle.js"></script>
+</body>
+</html>
