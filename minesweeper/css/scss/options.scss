@@ -1,0 +1,126 @@
+@import "./variables.scss";
+
+.options-all {
+    background-color: #A2D149;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    transition: 0.5s;
+    margin-bottom: 3em;
+    box-shadow: rgba(162, 209, 73, 0.4) 0px 5px, rgba(162, 209, 73, 0.3) 0px 10px, rgba(162, 209, 73, 0.2) 0px 15px, rgba(162, 209, 73, 0.1) 0px 20px, rgba(162, 209, 73, 0.05) 0px 25px;
+}
+
+.start-game {
+    margin: 10px 0;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    background-color:#E7471D;
+    cursor: pointer;
+}
+
+.timer {
+    color: #E7471D;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#value {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E7471D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#value::before {
+    content: 'Bombs: ';
+}
+
+.input-range {
+    width: 200px;
+}
+
+.field-size {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #E7471D;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
+
+.hours::after {
+    content: ':';
+}
+.minute::after {
+    content: ':';
+}
+
+.block-input-range {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-click-live {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E7471D;
+}
+.count-click-live::before {
+    content: 'Click: ';
+}
+.list-button {
+    margin: 10px 0;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    background-color:#E7471D;
+    cursor: pointer;
+}
+.count-flag-use {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E7471D;
+}
+.count-flag-use::before {
+    content: 'Flag use: ';
+}
+.theme-mute {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mute-button,
+.theme-button {
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #E7471D;
+    transition: 0.5s;
+}
+.mute {
+    background-color: red;
+    color: white;
+}

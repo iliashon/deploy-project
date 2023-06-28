@@ -1,0 +1,50 @@
+@import "./variables.scss";
+
+.field {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cell {
+    overflow: hidden;
+    height: 30px;
+    background-color: $sky-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 0.5px solid;
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cell-dark {
+    background-color: #006466;
+}
+
+.cell:hover {
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
+.mine {
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+}
+
+.flag {
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+}
